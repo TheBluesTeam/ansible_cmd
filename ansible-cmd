@@ -1,0 +1,5 @@
+ansible all -m copy -a "src=/test dest=~/"
+
+ansible all -m shell -a free
+
+ansible all -m ping
